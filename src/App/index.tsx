@@ -1,6 +1,8 @@
 import "./index.scss";
 
-function App({ hello, who }: any) {
+function App({ hello, who, bool }: any) {
+  console.log({ hello, who, bool });
+
   if (!hello) {
     return <div>Blank page</div>;
   }
